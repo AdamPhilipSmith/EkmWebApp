@@ -8,7 +8,7 @@ namespace EkmWebApp.Models
 {
     public class EmployeeDBContext:DbContext
     {
-        // 
+         
         public EmployeeDBContext(DbContextOptions<EmployeeDBContext> options):base(options)
         {
 
